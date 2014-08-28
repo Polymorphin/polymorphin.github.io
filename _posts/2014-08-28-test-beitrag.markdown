@@ -14,7 +14,14 @@ image: five.jpg
 <div class="row">	
 	<div class="span9 columns">
 	  <h2>Testbeitrag</h2>
-	  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum..</p>  	  
+	  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum...</p>
+	  <hr>
+	  <h1>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+	  tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+	  quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+	  consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+	  cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+	  proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</h1>
 	</div>
 </div> 
 
@@ -32,8 +39,8 @@ image: five.jpg
 		<script type="text/javascript">
 			/* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
 			var disqus_shortname = 'polymorphinsblog'; // required: replace example with your forum shortname
-			var disqus_identifier = '/blog/test-beitrag';
-			var disqus_url = '/blog/test-beitrag';
+			var disqus_identifier = '{{ page.url }}';
+			var disqus_url = 'http://polymorphin.github.io{{ page.url }}';
 			
 			/* * * DON'T EDIT BELOW THIS LINE * * */
 			(function() {
