@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Test Beitrag
-category: 1337 programing
+category: Coding
 tags: coding test lol
 year: 2014
 month: 8
