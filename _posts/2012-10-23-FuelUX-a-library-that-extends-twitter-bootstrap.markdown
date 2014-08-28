@@ -29,7 +29,7 @@ image: post_four.png
 		<p><b>Second</b> change the link and script references from bootstrap to the fuelux.  Since FuelUX extends Bootstrap you shouldn't have any issues and along with it get more controls.  I could have also choosen to use the actual css files by downloading them from the <a href="https://github.com/ExactTarget/fuelux" target="_blank">GitHub Repo</a> <i>dist/css</i> <a href="https://github.com/ExactTarget/fuelux/tree/master/dist/css" target="_blank">folder</a>.</p>
 		<p><pre><code>&lt;link href="http://fuelux.exacttargetapps.com/fuelux/2.0/css/fuelux.css" rel="stylesheet" /&gt;<br/>
 &lt;link href="http://fuelux.exacttargetapps.com/fuelux/2.0/css/fuelux-responsive.css" rel="stylesheet" /&gt;<br/>
-&lt;script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js" type="text/javascript"&gt;&lt;/script&gt;<br/>
+&lt;script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js" type="text/javascript"&gt;&lt;/script&gt;<br/>
 &lt;script src="http://fuelux.exacttargetapps.com/fuelux/2.0/loader.min.js" type="text/javascript"&gt;&lt;/script&gt;		
 		</code></pre></p>
 		<p>That is it!  Your site still has the Bootstrap markup and <a href="http://code.exacttarget.com/devcenter/fuel-ux" target="_blank">some more controls</a>.</p>
@@ -37,7 +37,7 @@ image: post_four.png
 		<p>Themes were baked in as well, if you want to see one of the themes .. alter the link and script resource links as follows:</p>
 		<p><pre><code>&lt;link href="http://fuelux.exacttargetapps.com/<b>fuelux-imh</b>/2.0/css/fuelux.css" rel="stylesheet" /&gt;<br/>
 &lt;link href="http://fuelux.exacttargetapps.com/<b>fuelux-imh</b>/2.0/css/fuelux-responsive.css" rel="stylesheet" /&gt;<br/>
-&lt;script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js" type="text/javascript"&gt;&lt;/script&gt;<br/>
+&lt;script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js" type="text/javascript"&gt;&lt;/script&gt;<br/>
 &lt;script src="http://fuelux.exacttargetapps.com/<b>fuelux-imh</b>/2.0/loader.min.js" type="text/javascript"&gt;&lt;/script&gt;		
 		</code></pre></p>
 		<h2>Sample Starter Page</h2>

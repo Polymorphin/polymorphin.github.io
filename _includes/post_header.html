@@ -8,7 +8,7 @@
 		(function () {
 			var s = document.createElement('script'); s.async = true;
 			s.type = 'text/javascript';
-			s.src = 'http://' + disqus_shortname + '.disqus.com/count.js';
+			s.src = '//' + disqus_shortname + '.disqus.com/count.js';
 			(document.getElementsByTagName('HEAD')[0] || document.getElementsByTagName('BODY')[0]).appendChild(s);
 		}());
 	</script>
@@ -20,7 +20,7 @@
 </div>		
 <div class="row">	
 	<div class="span3 column">
-		<h5><strong>{{ page.date | date: "%B %e, %Y" }} <small>. {{ page.category }} . <a href="http://polymorphin.github.io{{ page.url }}#disqus_thread" data-disqus-identifier="{{ page.url }}">Comments</a></small></strong>
+		<h5><strong>{{ page.date | date: "%B %e, %Y" }} <small>. {{ page.category }} . <a href="//polymorphin.github.io{{ page.url }}#disqus_thread" data-disqus-identifier="{{ page.url }}">Comments</a></small></strong>
 		<br/><small>Tags: {% for tag in page.tags %} <a href="/tags/{{ tag }}" title="View posts tagged with &quot;{{ tag }}&quot;"><u>{{ tag }}</u></a>  {% if forloop.last != true %} {% endif %} {% endfor %} </small><br/><br/>
 		<a href="https://twitter.com/share" class="twitter-share-button" data-via="erjjones">Tweet</a> <g:plusone size="medium"></g:plusone></h5>
 	</div>		
